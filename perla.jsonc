@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AngelMunoz/Perla/v0.21.0/perla.schema.json",
+  "index": "./index.html",
+  "fable": {
+    "autoStart": true,
+    "project": "./src/App.fsproj"
+  },
+  "packages": {
+    "@fluentui/web-components": "https://cdn.skypack.dev@fluentui/web-components",
+    "lit": "https://cdn.skypack.dev/pin/lit@v2.2.3-IwwYkJyh70OoYX9M4m5k/mode=imports,min/optimized/lit.js"
+  }
+}
